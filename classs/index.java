@@ -12,11 +12,16 @@ class Car{
 }
 class Main {
     public static void main(String[] args) {
-        Car c=new Car();
-        c.chairs=4;
-        c.tyres=4;
-        c.speed=700;
-        c.gears=4;
+        Car alto=new Car();
+        Car mercdes=new Car();
+        mercdes.chairs=4;
+        mercdes.tyres=4;
+        mercdes.speed=400;
+        mercdes.gears=5;
+        alto.chairs=4;
+        alto.tyres=4;
+        alto.speed=200;
+        alto.gears=4;
         
         System.out.println(c.chairs);
     }
