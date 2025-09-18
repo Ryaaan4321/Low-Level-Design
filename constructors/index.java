@@ -39,6 +39,7 @@ class Movie4{
         this.title=title;
         this.duration=duration;
     }
+    // copy constructors
     public Movie4(Movie4 other){
         this.title=other.title;
         this.duration=other.duration;
