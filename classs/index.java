@@ -1,3 +1,7 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
 class Car{
     int chairs;
     int tyres;

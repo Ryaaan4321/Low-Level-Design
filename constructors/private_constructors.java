@@ -1,3 +1,7 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
 class Singelton{
     private static Singelton instance;
     private Singelton(){};

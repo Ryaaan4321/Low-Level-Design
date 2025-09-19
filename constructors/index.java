@@ -1,3 +1,7 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
 // Default constructor
 class Movie{
     String movie_name;
