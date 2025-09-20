@@ -19,6 +19,7 @@ class Car extends Veichle{
         System.out.println("starting a car!");
     }
 }
+
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
@@ -29,6 +30,13 @@ class Codechef
 		Veichle c=new Car();
 		c.start();
 		t.start();
+		
+		// also we can call it this way!
+		Veichle vv;
+		vv=new Truck();
+		vv.start();
+		vv=new Car();
+		vv.start();
 
 	}
 }
